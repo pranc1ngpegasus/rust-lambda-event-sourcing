@@ -1,0 +1,13 @@
+[package]
+name = "producer"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+aws-config.workspace = true
+aws-sdk-sqs.workspace = true
+envy.workspace = true
+proto.workspace = true
+serde = { workspace = true, features = ["derive"] }
+serde_json.workspace = true
+tokio = { workspace = true, features = ["full"] }
