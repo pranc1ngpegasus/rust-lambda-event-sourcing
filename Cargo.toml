@@ -1,5 +1,5 @@
 [workspace]
-members = []
+members = ["proto"]
 resolver = "2"
 
 [workspace.package]
@@ -7,3 +7,8 @@ edition = "2021"
 version = "0.1.0"
 
 [workspace.dependencies]
+prost = "0.12"
+prost-build = "0.12"
+prost-types = "0.12"
+proto.path = "proto"
+serde = "1.0.194"
